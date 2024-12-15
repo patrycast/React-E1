@@ -2,16 +2,16 @@ import styled from 'styled-components'
 
 export const SectionContainer= styled.section`
  background-color: var(--bg-container);
- background-color: var(--bg-container);
  display: flex;
  flex-direction: column;
  align-items: center;
  justify-content: center;
  width:900px;
- height: 400px;
+ height: 100vh;
  box-shadow: 2px 2px 8px 8px var(--boxShadow-container);
  border:1px solid var(--text-white);
  border-radius: 15px;
+ margin: 0 auto;
 
   @media (max-width: 768px) { 
    width: 100%; 
